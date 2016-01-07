@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Folder-style page prototype</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+    crossorigin="anonymous">
+
+    <!-- Sideways tabs -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.vertical-tabs.min.css">
+
+    <!-- My theme -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">HERE IS TEXT</div>
+    <div class="row">
+        <div class="col-xs-4 col-xs-offset-4">content</div>
+        <div class="col-xs-4">sidebar</div>
+        <div class="row">
+            <div class="col-xs-9">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home-r">Home Tab.</div>
+                    <div class="tab-pane" id="profile-r">Profile Tab.</div>
+                    <div class="tab-pane" id="messages-r">Messages Tab.</div>
+                    <div class="tab-pane" id="settings-r">Settings Tab.</div>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <!-- required for floating -->
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tabs-right sideways">
+                    <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+                    <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+                    <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+                    <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
